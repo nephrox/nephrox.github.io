@@ -1,0 +1,112 @@
+body{       
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color: white;
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    
+}
+
+#content{
+    display: inline-block;
+    border-block-color: black;
+    padding: 10px;
+}
+
+#nav{
+    width: 200px;
+    float: left;
+}
+
+#nav ul{
+    list-style-type: none;
+}
+
+
+h1, h2, h3{
+    margin: 0;
+}
+    
+
+#main{
+    width: 600px;
+    float: right;
+}
+
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    text-align: right;
+}
+
+
+div{
+    border: 1px solid;
+    flex-grow: 1s;
+}
+
+.imgR{
+    float: right;
+}
+.bigL{
+    float: left;
+    font-size: 80px;
+    padding: 10px;
+}
+.gulur{
+    background-color: yellow;
+}
+.rauður{
+    background-color: red;
+}
+.grænn{
+    background-color: green;
+}
+.blar{
+    background-color: blue;
+}
+.row{
+    display: flex;
+    flex-flow: row;
+}
+.col{
+    display: flex;
+    flex-flow: column;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 206px;
+
+    font-size: 1.2em;
+    height: 5em;
+}
+
+.div1{
+    border-style: dotted;
+    color: red;
+    height: 50px;
+}
+.div2{
+    color: black;
+    border-style: solid;
+    width: fit-content;
+    align-content: center;
+}
+.h11{
+    text-align: center;
+}
