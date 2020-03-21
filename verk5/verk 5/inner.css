@@ -1,0 +1,135 @@
+body{
+    background: rgb(0,0,78);
+background: linear-gradient(0deg, rgba(0,0,78,1) 0%, rgba(0,99,255,1) 100%);
+display: grid;
+
+
+font-family: 'Source Code Pro', monospace;
+}
+.head{
+    color: white;
+    padding-left: 420px;
+    padding-right: 420px;
+    text-align: left;
+}
+.topnav{
+    text-align: right;
+    font-size: 30px;
+}
+.verkefni{
+    position: absolute;top: -3px;right: 420px;text-align: right;
+}
+.sel{
+background-image: linear-gradient(to bottom, #ffa600, #ffa384, #ffbdd6, #ffe2ff);
+padding: 130px;
+text-align: center;
+align-content: center;
+padding-left: 420px;
+padding-right: 420px;
+justify-content: center;
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+text-align: justify;
+color: black;
+}
+.headd{
+color: white;
+
+text-align: center;
+padding-bottom: 150px;
+    
+}
+.innermenu{
+    text-align: justify;
+    position: absolute;top:170px;
+    color: white;
+}
+a{
+    color: white;
+}
+.a1
+{
+ float: left;
+ font-size: 20px;
+ color:white;
+ background-color: rgb(0, 119, 255);
+ border: solid white 0.5px;
+ display: inline-block;
+ padding:3px;
+ 
+}
+a:link{
+    text-decoration: none;
+}
+.a{
+    background-image: linear-gradient(to bottom, #ffa600, #ffa384, #ffbdd6, #ffe2ff);
+    color: black;
+    padding-left: 420px;
+padding-right: 420px;
+margin-bottom: 100px;
+}
+.b{
+    background-image: linear-gradient(to bottom, #ffa600, #ffa384, #ffbdd6, #ffe2ff);
+    color: black;
+    padding-left: 420px;
+padding-right: 420px;
+margin-bottom: 100px;
+}
+.c{
+    background-image: linear-gradient(to bottom, #ffa600, #ffa384, #ffbdd6, #ffe2ff);
+    color: black;
+    padding-left: 420px;
+padding-right: 420px;
+margin-bottom: 100px;
+}
+.d{
+    background-image: linear-gradient(to bottom, #ffa600, #ffa384, #ffbdd6, #ffe2ff);
+    color: black;
+    padding-left: 420px;
+padding-right: 420px;
+margin-bottom: 100px;
+}
+.e{
+    background-image: linear-gradient(to bottom, #ffa600, #ffa384, #ffbdd6, #ffe2ff);
+    color: black;
+    padding-left: 420px;
+padding-right: 420px;
+margin-bottom: 100px;
+}
+.f{
+    background-image: linear-gradient(to bottom, #ffa600, #ffa384, #ffbdd6, #ffe2ff);
+    color: black;
+    padding-left: 420px;
+padding-right: 420px;
+}
+.footer{
+    color: white;
+    padding-left: 420px;
+    padding-right: 420px;
+    padding-top: 10px;
+    text-align: justify;
+    -webkit-column-count: 3;
+-moz-column-count: 3;
+     column-count: 3;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
