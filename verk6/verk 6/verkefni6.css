@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap');
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.a1{
+    display: grid;
+    /* setti þetta inn til að miðja */
+    align-items: center;
+    justify-content: center;
+    /*                              */
+    background-image: url(bg.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    font-size: 50px;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+.a2{
+    font-size: 30px;
+    font-family: 'Alegreya SC', serif;
+    height: 100vh;
+    background-image: url(bg2.jpg);
+    background-color: #cccccc;
+    color: rgb(255, 237, 75);
+     text-align: justify;
+}
+
+/* Notum grid til að skipta í tvo hluta... */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+
+.as{
+    background-color: rgba(255, 255, 255, 0.438);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: justify;   
+    margin: 0px;
+}
+
+.a22{
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 0 10px 0 10px;
+    margin: 0px;
+}
+
+.h12{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    margin: 0px;
+}
+a{
+width: fit-content;
+height: fit-content;
+align-content: center;
+grid-row: 1fr 1fr 1fr;
+text-decoration: none;
+color: rgb(218, 255, 255);
+}
+.foot{
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+    margin: 0px;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    text-align: center;
+    font-size: large;
+    padding-top: 15px;
+}
+.foot-b{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    font-size: larger;
+}
+.tm{
+    position: absolute;bottom: -1300px;
+}
