@@ -1,0 +1,1 @@
+í þessu verkefni er fjallað um þróun farsíma og hverjir standa á bakvið það
