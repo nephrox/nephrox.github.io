@@ -1,0 +1,208 @@
+body{
+    background-image: url(gogn/BG.png);
+    background-color:#cccccc;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    font-family: 'Kaushan Script', cursive;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    position: absolute;top: -80px;left: 650px;
+}
+.head{
+    background-color: rgba(0, 0, 0, 0.603);
+    margin: 0px;
+    height: 15vh;
+    width: 100%;
+    position: absolute;top: 0px;
+}
+p{
+    color: white;
+}
+.intro{
+    font-size: larger;
+    position: absolute;top: 300px;left: 350px;
+    text-align: justify;
+    justify-content: center;
+    width:700px;
+    height: 270px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+}
+.swi{
+    position: absolute;top: 600px;left: 450px;
+    border-radius: 20px;
+}
+.phone1{
+    position: absolute;top: 300px;left: 1100px;
+    border-radius: 20px;
+}
+.siminn{
+    font-size: larger;
+    position: absolute;top: 1000px;left: 980px;
+    text-align: justify;
+    justify-content: center;
+    width:550px;
+    height: 250px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+}
+.rotary{
+    position: absolute;top: 1000px;left: 350px;
+    border-radius: 20px;
+}
+.brickphone{
+    font-size: larger;
+    position: absolute;top: 1700px;left: 350px;
+    text-align: justify;
+    justify-content: center;
+    width:700px;
+    height: 260px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+}
+.brick{
+position: absolute;top: 1700px;left: 1100px;
+border-radius: 20px;
+}
+.vidi{
+    position: absolute;top: 2000px;left: 450px;
+    border-radius: 20px;
+}
+.GSM{
+    font-size: larger;
+    position: absolute;top: 2400px;left: 900px;
+    text-align: justify;
+    justify-content: center;
+    width: 600px;
+    height: 165px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+}
+.SMS{
+    font-size: xx-large;
+    position: absolute;top: 2650px;left: 930px;
+    text-align: justify;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+}
+.nokia{
+    position: absolute;top: 2400px;left: 350px;
+    border-radius: 20px;
+}
+.mt{
+    position: absolute;top: 2400px;left: 650px;
+    border-radius: 20px;
+}
+.litur{
+    font-size: larger;
+    position: absolute;top: 3100px;left: 350px;
+    text-align: justify;
+    justify-content: center;
+    width:700px;
+    height: 260px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+}
+.nokia9210{
+    position: absolute;top: 3400px;left: 1100px;
+    border-radius: 20px;
+}
+.S10{
+    position: absolute;top: 3100px;left: 1100px;
+    border-radius: 20px;
+}
+.vp210{
+    position: absolute;top: 3400px;left: 850px;
+    border-radius: 20px;
+}
+.snerti{
+    font-size: larger;
+    position: absolute;top: 3800px;left: 900px;
+    text-align: justify;
+    justify-content: center;
+    width:700px;
+    height: 320px;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.603);
+    border-radius: 20px;
+}
+.iphone{
+    position: absolute;top: 3800px;left: 350px;
+    border-radius: 20px;
+}
+.samsung{
+    position: absolute;top: 4100px;left: 350px;
+    border-radius: 20px;
+}
+.video{
+    position: absolute;top: 4160px;left: 850px;
+    border-radius: 20px;
+}
+footer{
+    position: absolute;top: 4750px;
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 100%;
+    color: white;
+    height: 15vh;
+    margin: 0px;
+    }
+    .tm{
+        position: absolute;bottom: 10px; left: 10px;
+        font-size: larger;
+    }
+    .contact{
+        position: absolute;bottom: 10px;left: 1300px;
+        font-size: larger;
+    }
+a{
+    color: orange;
+    text-decoration: none;
+}
+.d1{
+    background-color: orange;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 260px;
+}
+.d2{
+    background-color: orange;
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 140px;
+}
+.d3{
+    background-color: orange;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.d4{
+    background-color: orange;
+    height: 60vh;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.d5{
+    background-color: orange;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.d6{
+    background-color: orange;
+    height: 110vh;
+    width: 100%;
+}
